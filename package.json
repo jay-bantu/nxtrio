@@ -1,0 +1,20 @@
+{
+  "name": "nxtrio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' sass/main.css -o css/style.prefix.css",
+    "compress:css": "node-sass css/style.prefix.css  css/style.css --output-style compressed"
+    
+  },
+  "author": "jaybantu",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss-cli": "^10.1.0"
+  },
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}

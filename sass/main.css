@@ -594,13 +594,17 @@ body {
   box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.06);
   padding: 3rem;
   margin-right: 4.5rem;
-  margin-right: 0;
-  margin-bottom: 3rem;
 }
 @media only screen and (max-width: 56.25em) {
   .detail .description {
     padding: 2rem;
     margin-right: 3rem;
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  .detail .description {
+    margin-right: 0;
+    margin-bottom: 3rem;
   }
 }
 .detail .user_reviews {

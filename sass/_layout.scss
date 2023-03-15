@@ -73,9 +73,9 @@
       margin-right: 3rem;
     }
     @media only screen and (max-width: $bp_small) {
+      margin-right: 0;
+      margin-bottom: 3rem;
     }
-    margin-right: 0;
-    margin-bottom: 3rem;
   }
   .user_reviews {
     flex: 1;
